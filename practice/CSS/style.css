@@ -1,0 +1,33 @@
+
+body{
+    background-image: url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgICAgHBwcHBwcHBwoHBwcHBw8ICQcKFREWFhURExUYHSggGBolGxMTITEhJSkrLi4uFx8zODMsNygtLisBCgoKDQ0NFQ0NDisZFRkrKzctNys3LSsrLSs3KystKysrKys3KysrKystNy0rKysrKysrKysrKysrKysrKysrK//AABEIALcBEwMBIgACEQEDEQH/xAAaAAEBAQEBAQEAAAAAAAAAAAABAAIDBQQG/8QAGRABAQEBAQEAAAAAAAAAAAAAAAERAgMx/8QAGgEBAQEBAQEBAAAAAAAAAAAAAwIBAAYHBf/EABkRAQEBAQEBAAAAAAAAAAAAAAABAhExEv/aAAwDAQACEQMRAD8A/c+fLtzGeY68x+tX4Ua5jcg5jpIiny1I1BEOllKCTVykxQjpYiiikhhUhFSxFGDq4lhI6SMkqCq4sWFCqoEUOqCKHWsppDrugY0E1wwY0ktYwWNjE13XK8p0xM4r6eRzHXmMcunL3VeQy3G4xKU0srSBRYSUtRmNRFLDCI1B0sMKhHSQwiNCpYiiOkiKhHVwIoWlxRGIVXAih1oRQ60Iodcyik1wRSXAY1gxjes4mkxzxuW45xuPdV5DNbjTEaiaWVqGMxqIpY1GozGoOly1GozGoOmyY1AYOlhhgaHSxFEVXFCoR0kSRFpcSRFVhEDrUCh1wRQ64JJFckUlwRTnMlJjXhxqMRuPd146VqNRmNRNLlqNRmNxFNlqNRmNQdNlowQwdNlpqMtQVLCYGoOlihRFSRQiNDpIkiLS4kiKrCSFXBFDrgiB1qSSa5FJLEkmOCIc14MbjnG493XjY3GoxGomly3G2I3EU+Wo1GY1Pg6bLUMEMHTZajUEMHTQtQGDpYSCKkhhBgquIgi0SIpCqlQQKtSSHXIGodcCkiuSSS4ghzkgnOeBG4zGo95Xj5Go1GY1EUmW41GY1E02W4YzG4Omy1CIR02W4YzGoKmjRgMHSwkEVJCYDBUkKBFokKBFVIJCrUkhVyoSHWohIrigWMSQY5IJzXhRqCNR7yvIcMagjUTSSNRqMxqJpcxqNxiNwdLkxtiNjpsmNRmNQVLGjAYOmySCKkhUSgqSEwEWiREIOlpVIdcEkKtSQFXFBIrigkuIQ1zignNeLDBGo948pIY1BGoxchjUEaiKuQtxmNRFJkxuMwwdLGo1GYRUsbiiig6XLRCFSwwwGCpIUDBaJCgQ6WgkKtQSFXJBCrUgkVxQSXEIMaUE3rnkRuMxqPe15eQxqRQyJXIY1IJGoirkMMUjUiKSRRoRqQdXIYYGpB0kKiI6XJII6SIwGCpIiEHS4UkHRIgkKtQSDWoICrUloHXHVoCa1oaExxTOhvXPOjUZjce+rzcjUakEbiKSRSNSCNyItVIGpE1EVcihRkRVyKNRQjqpEUoikhSI6uJJCq4kkLRIiEHRIgaKGqCVAdNQQDWpAVFadWgIdw6gNZ1pQ1M618Eb5c+a6cvoFeajpG4xG4ilkajUEaRSSKNRQoquKRoFFaYolEVUhMBRVwpIdVEQYOriBAtEiSQdLgVQDViggOmiiqgOlRBAVadA0aO1XDo0aNT1vDpY1O67j4PLrX0cpPoVeXx46ctxIdPG42kikMKSKolJCoVCk1SJSK2JJDqkQkVUISFokVSQaSAJC0uBmpB0oVlIOlQVmlA0qM6LUg6UNFoSK0akk9Vx/9k=");
+    background-position: 100%;
+    background-repeat:repeat-y;
+    background-size: 100%;
+    
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    text-align: center;
+}
+.per{
+    width: 900px;
+    height: 300px;
+
+}
+figcaption{
+    font-size: larger;
+    font-style: italic;
+    font-weight: bolder;
+}
+#headi{
+    text-align: left;
+}
+div{
+    height: 1000px;
+}
+.sign{
+    color: blue;
+    font-size: 20px;
+}

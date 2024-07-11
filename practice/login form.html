@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up Form</title>
+</head>
+<style>
+    body{
+        margin: 0;
+        padding: 0%;
+        background-color: cornflowerblue;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    #form {
+        background-color: whitesmoke;
+        width: 500px;
+        height: 450px;
+        margin: auto;
+    }
+    h2{
+        text-align: center;
+        padding: 20px;
+    }
+    #First , #name , #age{
+        width: 280px;
+        height: 30px;
+        border-radius: 11px;
+        border: 1px solid black;
+        padding: 0 0 0 10px;
+        box-shadow: 10px 10px 10px inset rgba(#0c0b0b);
+    }
+    label , span{
+        margin-left: 15px;
+    }
+    #submit , #reset{
+        width: 100px;
+        height: 40px;
+        border: 1px solid rgb(82, 81, 81);
+        border-radius: 7px;
+        background-color: #000000;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 0 0 70px;
+    }
+</style>
+<body>
+    <div id="form">
+        
+        <h2>Sign Ups</h2>
+        <form id="Registration" method="post"></form>
+        <label>First Name:</label>
+        <input type="text" id="First" placeholder="Enter Your First Name">
+        <br><br>
+        <label>Last Name:</label>
+        <input type="text" name="Iname" id="name" placeholder="Enter Your Last Name">
+        <br><br>
+        <label>Your Age :</label>
+        
+        <input type="number" name="age" id="age" placeholder="How old are you">
+        <br><br>
+        <label>Email :</label>
+        
+        <input type="email" name="email" id="name" placeholder="Enter Your Email">
+        <br><br>
+        <label>Gender :</label>
+        <input type="radio" name="gender" id="gender">
+        
+        <span id="span">Male</span>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="radio" name="gender" id="gender">
+        <span id="span">Female</span>
+        <br><br>
+    <label>Choose language :</label>
+        <input type="checkbox" id="language">
+        <span id="English">English</span>
+        <input type="checkbox" id="language">
+        <span id="Urdu">Urdu</span>
+        <input type="checkbox" id="language">
+        <span id="Sindhi">Sindhi</span>
+        <br><br>
+        <input type="submit" id="submit" value="submit">
+        <input type="reset" id="reset" value="reset" name="reset">
+    </div>
+    
+</body>
+</html>
